@@ -1,0 +1,148 @@
+/* .........Hero Section..................... */
+.Hero-container-main{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    height: 90vh;
+    border-bottom: 1px solid grey;
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Hero-container-sub-heading{
+    position: relative;
+    top: -30px;
+    left:-290px;
+    width:80%;
+    overflow-x: hidden;
+    height:fit-content;
+    color: white;
+    z-index: 1000;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Hero-container-sub-heading:hover{
+    cursor: context-menu;
+    text-shadow:
+    1px 1px 2px red,
+    0 0 1em rgba(116, 186, 31, 0.35),
+    0 0 0.2em rgba(54, 82, 21, 0.35);
+}
+
+.Hero-container-sub-image-div{
+    /* width: 500px; */
+    position: absolute;
+    right: 0;
+    border-top-right-radius:28%;
+    border-bottom-right-radius: 28%;
+    width: 40%;
+    height: 100%;
+    margin-bottom: 10px;
+    background-image: url("../../assets/images/heroPhoto.jpg");
+    background-size: cover;
+    box-shadow: rgba(116, 186, 31, 0.35) 0px 5px 30px;
+}
+
+.bg-div{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+
+/* ....................................Media queries ........................................*/
+
+@media only screen and (max-width: 1024px) {
+    .Hero-container-sub-heading{
+        font-size: 4rem;
+        left:-180px
+    }
+    .Hero-container-sub-image-div{
+        width: 50%;
+    }
+    .bg-div{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Hero-container-main{
+        height: 70vh;
+    }
+    .Hero-container-sub-heading{
+        font-size: 3rem;
+        left:-140px
+    }
+    .Hero-container-sub-image-div{
+        width: 60%;
+    }
+    .bg-div{
+        width: 50%;
+    }
+}
+
+@media (min-width:420px) and (max-width:430px) {
+    .Hero-container-main{
+        height: 60vh;
+        margin-top: 13px;
+    }
+    .Hero-container-sub-heading{
+        font-size: 2rem;
+        left:-75px
+    }
+    .Hero-container-sub-image-div{
+        width: 100%;
+        box-shadow: rgba(116, 186, 31, 0.35) 0px 3px 10px;
+        margin-bottom: 15px;
+    }
+    .bg-div{
+        width: 100%;
+        border-top-right-radius: 28%;
+        border-bottom-right-radius: 28%;
+    }
+}
+
+@media (min-width:321px) and (max-width:376px){
+    .Hero-container-main{
+        height: 50vh;
+        margin-top: 13px;
+    }
+    .Hero-container-sub-heading{
+        font-size: 1.8rem;
+        left:-64px
+    }
+    .Hero-container-sub-image-div{
+        width: 100%;
+        box-shadow: rgba(116, 186, 31, 0.35) 0px 3px 10px;
+        margin-bottom: 15px;
+
+    }
+    .bg-div{
+        width: 100%;
+        border-top-right-radius: 28%;
+        border-bottom-right-radius: 28%;
+    }
+}
+
+@media (min-width:200px) and (max-width:320px){
+    .Hero-container-main{
+        height: 45vh;
+        margin-top: 13px;
+    }
+    .Hero-container-sub-heading{
+        font-size: 1.5rem;
+        left:-50px
+    }
+    .Hero-container-sub-image-div{
+        width: 100%;
+        box-shadow: rgba(116, 186, 31, 0.35) 0px 3px 10px;
+        margin-bottom: 15px;
+    }
+    .bg-div{
+        width: 100%;
+        border-top-right-radius: 28%;
+        border-bottom-right-radius: 28%;
+    }
+}
