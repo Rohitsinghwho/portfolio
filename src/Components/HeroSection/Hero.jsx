@@ -7,7 +7,7 @@ import "./Hero.style.css"
 const Hero = () => {
   return (
     <div className='Hero-container-main'>
-        <div className='Hero-container-sub-heading'>
+        <div className='Hero-container-sub-heading lato-thin'>
           Programming isn't about what you know; it's about what you can figure out.
         </div>
 

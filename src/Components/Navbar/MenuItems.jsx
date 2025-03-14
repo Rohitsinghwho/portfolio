@@ -17,7 +17,7 @@ const MenuItems = () => {
             {
             NavItems.map((menuItem) => {
                 return (
-                    <div key={menuItem.id} className='MenuItems-container'>
+                    <div key={menuItem.id} className='MenuItems-container raleway-thin'>
                         <span className='navItemsName'>{menuItem.name}</span>
                         <IoArrowRedoOutline className='navIcon' onClick={()=>handleNavClick(menuItem.url)} />
                     </div>

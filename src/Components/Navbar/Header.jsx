@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className='Header-Container-main'>
        <div className='collapse-div'>           
-          <div className='NavLogo1 w-33'>
+          <div className='NavLogo1 w-33 raleway-bold'>
           <span>ROHIT</span>
            <span>SINGH</span>
           </div>
@@ -24,7 +24,7 @@ const Header = () => {
        {isNavOpen&&
        <>
        <div className='w-33'><MenuItems/></div>
-        <div className='NavLogo w-33'>
+        <div className='NavLogo w-33 raleway-bold'>
           <span>ROHIT</span>
             <span>SINGH</span>
         </div>

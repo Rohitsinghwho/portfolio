@@ -1,9 +1,44 @@
 
 body{
-    background-color:#0F0E0F;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
+    background-image: url("./assets/images/bg2.jpg");
+    background-size: cover;
+    
+}
+.main-div{
+    background-color:#0F0E0F;
+    opacity: 0.97;
+    overflow-x: hidden;
     padding: 20px;
 }
+
+/* .....................Font classes............................. */
+.lato-thin{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+.raleway-thin{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+.raleway-bold{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
 /* btn-primary......................... */
 .btn-primary {
     background-color:#FFFFFF;
@@ -12,7 +47,10 @@ body{
     height:38px;
     box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 0.8rem;
-    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 .btn-primary:hover{
     background-color: #F7F7F7;
@@ -40,3 +78,19 @@ body{
         font-size: 0.5rem;
     }
 }
+
+@media (min-width:420px) and (max-width:426px){
+    .btn-primary{
+        width:90px;
+        height: 30px;
+        font-size: 0.8rem;
+    }
+} 
+
+@media (min-width:319px) and (max-width:321px){
+    .btn-primary{
+        width:80px;
+        height: 28px;
+        font-size: 0.7rem;
+    }
+} 

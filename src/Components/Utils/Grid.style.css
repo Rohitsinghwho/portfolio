@@ -1,0 +1,41 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item:hover .project-image {
+    transform: scale(1.1);
+  }
+  
+  .project-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-item:hover .project-info {
+    opacity: 1;
+  }
+  
