@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:black;
 }
 .NavLogo{
-    color:white;
+    color:#8AAAE5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +19,6 @@
     font-size: 1.2rem;
     letter-spacing: 10px;
     font-weight: bold;
-    text-shadow: 1px 0px 4px rgba(0, 0, 0, 1);
 }
 .w-33{
     width: 33.33%;
@@ -43,6 +43,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    color: #8AAAE5,;
 }
 .NavLogo1 span{
     font-size: 1.2rem;
@@ -64,8 +65,9 @@
 .MenuItems-container{
     color:white;
     display: flex;
+    color:#8AAAE5;
     justify-content: space-between;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
       
 }
 .navIcon:hover{

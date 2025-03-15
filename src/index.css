@@ -3,13 +3,11 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-image: url("./assets/images/bg2.jpg");
-    background-size: cover;
     
 }
 .main-div{
-    background-color:#0F0E0F;
-    opacity: 0.97;
+    background-color:#101820; 
+     opacity: 0.9;
     overflow-x: hidden;
     padding: 20px;
 }
@@ -17,45 +15,53 @@ body{
 /* .....................Font classes............................. */
 .lato-thin{
     font-family: "Lato", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
+    color:#97BC62;
 }
 .dancing-script{
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
+    color:#97BC62;
+
   }
-.raleway-thin{
+.raleway-thin-black{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 500;
     font-style: normal;
+
   }
 .raleway-bold{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    color:#97BC62;
+
   }
   
 /* btn-primary......................... */
 .btn-primary {
-    background-color:#FFFFFF;
+    background-color:#2C5F2D;
     color:black;
     width:90px;
     height:38px;
-    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     font-size: 0.8rem;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    border: 1px solid black;
+    border-radius: 10%;
 }
 .btn-primary:hover{
-    background-color: #F7F7F7;
+    background-color: #97BC62;
     cursor: pointer;
-    box-shadow:rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    /* box-shadow:rgba(0, 0, 0, 0.45) 0px 5px 15px; */
 }
 
 /* btn-primary......................... */
@@ -81,9 +87,9 @@ body{
 
 @media (min-width:420px) and (max-width:426px){
     .btn-primary{
-        width:90px;
+        width:120px;
         height: 30px;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 } 
 

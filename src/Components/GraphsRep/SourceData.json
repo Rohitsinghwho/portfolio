@@ -1,0 +1,43 @@
+[
+    {
+        "label":"HTML",
+        "value":32
+    },
+    {
+        "label":"CSS",
+        "value":24
+    },
+    {
+        "label":"JavaScript",
+        "value":40
+    }
+    ,{
+        "label":"Python",
+        "value":36
+    }
+    ,{
+        "label":"Java",
+        "value":28
+    },
+    {
+        "label":"HTML",
+        "value":32
+    },
+    {
+        "label":"CSS",
+        "value":24
+    },
+    {
+        "label":"JavaScript",
+        "value":40
+    }
+    ,{
+        "label":"Python",
+        "value":36
+    }
+    ,{
+        "label":"Java",
+        "value":100
+    }
+    
+]
