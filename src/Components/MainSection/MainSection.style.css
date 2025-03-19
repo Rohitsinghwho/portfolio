@@ -1,126 +1,177 @@
-/* ..................Skills styling........................ */
+
 .main-container-skills{
+    border-bottom   : 1px solid grey; 
+    display: flex;
+    /* height: 90vh; */
     width: 100%;
-    padding: 10px;
+    padding:20px;
+    justify-content: space-evenly;
 }
 .language-skills{
-    top:50px;
     width: 50%;
-    height:60vh;
-    left:10px;
-    border: 1px solid black;
-    border-radius: 2%;
-    background-color: #97BC62;
-    position: relative;
-    opacity: 0;  /* Initially hidden */
-    transform: translateY(50px); /* Start position is below */
-    animation: popFromBelow 3s ease-out forwards;
-    box-shadow:#97BC62 0px 5px 15px;
+    border:1px solid grey;
+    height: 70vh;
+    /* width: ; */
+    /* background-color: black; */
+    border-radius: 10px;
+    /* opacity: 0.5; */
+}
+.dsa-skills{
+    width: 40%;
+    border:1px solid grey;
+    height: 70vh;
+    border-radius: 10px;
 }
 .lang-container{
     height: 80%;
-    width: 100%;
 }
 .lang-title{
     font-size: 1.5rem;
-    margin-left: 20px;
-    text-decoration: underline;
-}
-@keyframes popFromBelow {
-    0% {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-.dsa-skills{
-    width: 30vw;
-    height:70vh;
-    border: 1px solid black;
-    top:-250px;
-    left:62em;
-    /* display: flex; */
-
-    background-color: #97BC62;
-    border-radius: 2%;
-
-    /* align-items: center; */
-    /* justify-content: center; */
-    padding:0px 5px;
-    position: relative;
-    transform: translateY(50px);
-    animation: popFromBelow 3s ease-out forwards;
-    box-shadow:#97BC62 0px 5px 15px;
-}
-.dsa-container{
-    height: 80%;
-    width: 100%;
-    
-    /* border: 1px solid red; */
+    color: #97BC62;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
 }
 .dsa-title{
-    /* border: 1px solid black; */
     font-size: 1.5rem;
-    display: flex;
-    align-items: flex-end;
-    /* margin-left: 20px; */
-    height: 10%;
-    text-decoration: underline;
+    color: #97BC62;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
 }
-.leetcode-api-main-container{
-    position: relative;
-    left:8em;
-    top:-180px;
-    transform: translateY(50px); /* Start position is below */
-    animation: popFromBelow 3s ease-out forwards;
-    /* border: 1px solid red; */
-    width: 80vw;
-    height: 60vh;
+.dsa-container{
+    height: 75%;
 }
-.leetcode-api-sub-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.leetcode-api-title{
-    font-size: 2rem;
-    display: flex;
-    align-items: flex-end;
-    height: 10%;
-    text-decoration: underline;
-    color:#97BC62
-}
-.LeetCode-api{
-    background-color: #97BC62;
-    width: 100%;
-    height: 80%;
-    border-radius: 2%;
-    border: 1px solid black;
-    box-shadow:#97BC62 0px 5px 15px;
-}
-
-
 
 /* ..................Skills styling........................ */
+/* ...................Main_Cart Styling......................... */
+
+.Main-cart-container-main{
+    border-bottom: 1px solid grey;
+    border-radius: 25px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding:5px 0;
+    box-shadow:#97BC62 0px 5px 15px;
+    
+}
+
+.Main-cart-container-heading{
+    display: flex;
+    border-bottom: 5px solid #97BC62;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    font-size: 1.8rem;
+}
+
+.Main-cart-container-items{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    /* border: 1px solid pink; */
+    justify-content: space-evenly;
+}
+/* ..................................Cart Styling..................................... */
+.cart-main{
+    border-bottom: 1px solid black;
+    /* border-ri */
+    border-radius: 20px;
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    box-shadow:#969992 0px 5px 10px;
+
+    /* align-items: center; */
+
+}
+.cart-main-container{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    color: white;
+}
+.number{
+    font-size: 1.8rem;
+    border: 1px solid navajowhite;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+
+}
+
+.cart-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border:2px solid red; */
+    border: 1px solid grey;
+    align-items: center;
+    width: 20vw;
+    border-top-right-radius: 20px;
+
+}
+.cart-title span{
+    /* border: 1px solid yellow; */
+    margin-top: 2px;
+    width: 100%;
+    /* text-align: center; 
+    */
+    font-weight: bold;
+    font-size: 1.2 rem;
+    text-align: center;
+
+    height: 100%;
+    
+
+}
+.cart-title p{
+    border-top:1px solid gray;
+    width: 15vw;
+    font-size: 1rem;
+}
+.callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-action{
+    /* border: 1px solid blue; */
+    padding: 8px;
+    font-size: 0.8rem;
+    margin: 7px;
+    border-radius: 10px;
+}
+.btn-action:hover{
+    cursor: pointer;
+}
+/* ..................................Cart Styling..................................... */
+/* ...................Main_Cart Styling......................... */
 
 
-/* ........................Main-section-styling................... */
+
+
+
+/* .......................Main-section-styling................... */
 
 .Main-section-container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    /* padding: 10px; */
+    width: 100%;
 }
 .Main-section-title{
     font-size: 1.8em;
     color:white;
-    transform: translateY(50px); /* Start position is below */
-    animation: popFromBelow 3s ease-out forwards;
-
 }
 /* ........................Main-section-styling................... */
 
@@ -135,10 +186,7 @@
 @media  (min-width:1022px) and (max-width:1025px){
     .dsa-skills{
         width: 35vw;
-        height:50vh;
-        border: 1px solid black;
-        top:-250px;
-        left:38em;
+        height:45vh;
     }   
     .lang-title{
         font-size: 1.2rem;
@@ -147,220 +195,414 @@
         font-size:1.2rem;
     }
     .language-skills{
-        width: 43%;
         height:45vh;
-    }
-    .leetcode-api-main-container{
-        width: 70vw;
-        height: 50vh;
-    }
-    .leetcode-api-title{
-        font-size: 1.4rem;
     }
 }
 
 @media  (min-width:765px) and (max-width:769px){
     .dsa-skills{
-        width: 35vw;
+        width: 40vw;
         height:60vh;
-        border: 1px solid black;
-        top:-250px;
-        left:28em;
     }   
 
-    .dsa-container{
-        height: 80%;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
     .lang-title{
         font-size: 1rem;
     }
     .dsa-title{
-        margin-top: 5px;
+       
         font-size:0.9rem;
-        height:fit-content;
-        /* border: 1px solid red; */
+      
     }
     .language-skills{
-        width: 45%;
+        width: 50%;
         height:60vh;
-    }
-    .leetcode-api-main-container{
-        width: 80vw;
-        height: 50vh;
-            left:3.7em;
-            top:-180px;
-    }
-    .leetcode-api-title{
-        font-size: 1.4rem;
     }
     .Main-section-title{
         font-size: 1.5em;    
     }
+    .Main-cart-container-main{
+        height: 90vh;  
+        justify-content: center;      
+    }
+    
+    .Main-cart-container-heading{
+        font-size: 1.4rem;
+    }
+    
+    .Main-cart-container-items{
+        display: flex;
+        /* flex-direction: column; */
+        padding: 30px;
+        width: 100%;
+        /* height: 80%; */
+        /* border: 1px solid pink; */
+        justify-content: space-evenly;
+    }
+    /* ..................................Cart Styling..................................... */
+    .cart-main{
+        border-bottom: 1px solid black;
+        /* border-ri */
+        border-radius: 20px;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        box-shadow:#969992 0px 5px 10px;
+    
+        /* align-items: center; */
+    
+    }
+    .cart-main-container{
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        color: white;
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .number{
+        font-size: 1.8rem;
+        border: 1px solid navajowhite;
+        width: 8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .cart-title{
+       
+        width: 18vw;
+      
+    }
+    .cart-title span{
+        font-size: 0.8rem;        
+    
+    }
+    .cart-title p{
+    
+        width: 15vw;
+        font-size: 0.8rem;
+    }
+    
+   
 }
 
 @media  (min-width:376px) and (max-width:426px){
-    .dsa-skills{
-        width: 60vw;
-        height:50vh;
-        border: 1px solid black;
-        top:80px;
-        left:8em;
-    }   
-
-    .dsa-container{
-        height: 80%;
-        width: 100%;
-        /* border: 1px solid red; */
+    .main-container-skills{
+        flex-direction: column;
     }
+    .dsa-skills{
+        width: 100%;
+        height:50vh;
+        padding: 5px;
+        
+    }   
     .lang-title{
         font-size: 0.8rem;
     }
     .dsa-title{
-        margin-top: 5px;
         font-size:0.8rem;
-        height:fit-content;
-        /* border: 1px solid red; */
     }
     .language-skills{
-        width: 90%;
-        height:45vh;
-    }
-    .lang-container{
-        height: 80%;
         width: 100%;
-    }
-    .leetcode-api-main-container{
-        width: 90vw;
-        height: 50vh;
-        left:0;
-        top:120px;
-    }
-    .leetcode-api-title{
-        font-size: 0.8rem;
+        padding: 5px;
+        height:50vh;
+        margin-bottom: 10px;
     }
     .Main-section-title{
         font-size: 1.01em;    
+    }
+    .lang-container{
+        /* border: 1px solid red; */
+        height: 80%;
+    }
+    .Main-cart-container-main{
+        height: fit-content;
+       justify-content: flex-start;    
+    }
+    
+    .Main-cart-container-heading{
+        font-size: 1.4rem;
+    }
+    
+    .Main-cart-container-items{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* ..................................Cart Styling..................................... */
+    .cart-main{
+        border-bottom: 1px solid black;
+        /* border-ri */
+        border-radius: 20px;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        box-shadow:#969992 0px 5px 10px;
+        margin-bottom: 10px;
+        /* align-items: center; */
+    
+    }
+    .cart-main-container{
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        color: white;
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .number{
+        font-size: 1.8rem;
+        border: 1px solid navajowhite;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .cart-title{
+        width: 50vw;
+      
+    }
+    .cart-title span{
+        font-size: 0.8rem;        
+    
+    }
+    .cart-title p{
+    
+        width: 100%;
+        font-size: 0.8rem;
     }
     
 }
 
 @media  (min-width:321px) and (max-width:376px){
-    .dsa-skills{
-        width: 60vw;
-        height:50vh;
-        border: 1px solid black;
-        top:80px;
-        left:6em;
-    }   
-
-    .dsa-container{
-        height: 100%;
-        width: 100%;
-        position: relative;
-        top:-50px
+    .lang-container{
         /* border: 1px solid red; */
+        height: 80%;
     }
+    .main-container-skills{
+        flex-direction: column;
+    }
+    .dsa-skills{
+        width: 100%;
+        height:50vh;
+        padding: 5px;
+        
+    }   
     .lang-title{
         font-size: 0.8rem;
-        /* height: 20px; */
-        /* border: 1px solid red; */
     }
     .dsa-title{
-        margin-top: 5px;
         font-size:0.8rem;
-        height:fit-content;
-        /* border: 1px solid red; */
     }
     .language-skills{
-        width: 90%;
-        height:40vh;
-    }
-    .lang-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: -50px;
-        height: 100%;
         width: 100%;
-        border: 1px solid black;
-    }
-    .leetcode-api-main-container{
-        width: 90vw;
-        height: 50vh;
-        left:0;
-        top:120px;
-    }
-    .leetcode-api-title{
-        font-size: 0.7rem;
+        padding: 5px;
+        height:50vh;
+        margin-bottom: 10px;
     }
     .Main-section-title{
         font-size: 0.8rem;    
+    }
+    .Main-cart-container-main{
+        height: fit-content;
+       justify-content: flex-start;    
+    }
+    
+    .Main-cart-container-heading{
+        font-size: 1.4rem;
+    }
+    
+    .Main-cart-container-items{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* ..................................Cart Styling..................................... */
+    .cart-main{
+        border-bottom: 1px solid black;
+        /* border-ri */
+        border-radius: 20px;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        box-shadow:#969992 0px 5px 10px;
+        margin-bottom: 10px;
+        /* align-items: center; */
+    
+    }
+    .cart-main-container{
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        color: white;
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .number{
+        font-size: 1.8rem;
+        border: 1px solid navajowhite;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .cart-title{
+        width: 50vw;
+      
+    }
+    .cart-title span{
+        font-size: 0.8rem;        
+    
+    }
+    .cart-title p{
+    
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .callToAction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-action{
+        /* border: 1px solid blue; */
+        padding: 8px;
+        font-size: 0.7rem;
+        margin: 7px;
+        border-radius: 10px;
     }
     
 }
 
 @media  (min-width:319px) and (max-width:321px){
-    .dsa-skills{
-        width: 70vw;
-        height:40vh;
-        /* border: 1px solid black; */
-        top:80px;
-        left:3em;
-    }   
-
-    .dsa-container{
-        height: 100%;
-        width: 100%;
-        position: relative;
-        top:-50px
-        /* border: 1px solid red; */
+    .lang-container{
+        height: 80%;
     }
+    .main-container-skills{
+        flex-direction: column;
+    }
+    .dsa-skills{
+        width: 100%;
+        height:50vh;
+        padding: 5px;
+        
+    }   
     .lang-title{
-        font-size: 0.55rem;
-        /* height: 20px; */
-        /* border: 1px solid red; */
+        font-size: 0.8rem;
     }
     .dsa-title{
-        margin-top: 5px;
-        font-size:0.55rem;
-        height:fit-content;
-        /* border: 1px solid red; */
+        font-size:0.8rem;
     }
     .language-skills{
         width: 100%;
-        height:40vh;
-        left:0
-        /* margin-left: 0; */
-    }
-    .lang-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: -50px;
-        height: 100%;
-        width: 100%;
-        /* border: 1px solid black; */
-    }
-    .leetcode-api-main-container{
-        width: 90vw;
-        height: 50vh;
-        left:0;
-        top:120px;
-    }
-    .leetcode-api-title{
-        font-size: 0.55rem;
+        padding: 5px;
+        height:50vh;
+        margin-bottom: 10px;
     }
     .Main-section-title{
-        font-size: 0.7rem;    
-    }
-    .LeetCode-api{
-      margin-top: 5px;
+        font-size: 0.8rem;    
     }
     
+    .Main-cart-container-main{
+        height: fit-content;
+       justify-content: flex-start;    
+    }
+    
+    .Main-cart-container-heading{
+        font-size: 1.4rem;
+    }
+    
+    .Main-cart-container-items{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* ..................................Cart Styling..................................... */
+    .cart-main{
+        border-bottom: 1px solid black;
+        /* border-ri */
+        border-radius: 20px;
+        height: 100%;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        box-shadow:#969992 0px 5px 10px;
+        margin-bottom: 10px;
+        /* align-items: center; */
+    
+    }
+    .cart-main-container{
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        color: white;
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .number{
+        font-size: 1.8rem;
+        border: 1px solid navajowhite;
+        width: 30vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .cart-title{
+        width: 50vw;
+      
+    }
+    .cart-title span{
+        font-size: 0.8rem;        
+    
+    }
+    .cart-title p{
+    
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .callToAction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-action{
+        /* border: 1px solid blue; */
+        padding: 8px;
+        font-size: 0.7rem;
+        margin: 7px;
+        border-radius: 10px;
+    }    
     
 }
 
